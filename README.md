@@ -1,6 +1,6 @@
 # AISuite
 
-This is my fork of the original AISuite repository. Everything remains the same except that a new **GitHub Provider** has been added to enable GPT-4 access via a GitHub Copilot subscription.
+This is my fork of the original [aiSuite](https://github.com/andrewyng/aisuite) repository. Everything remains the same except that a new **GitHub Provider** has been added to enable free GPT-4 access via a GitHub Copilot subscription. This addition is inspired by [freegpt](https://github.com/B00TK1D/freegpt).
 
 ## Installation
 
@@ -21,7 +21,7 @@ from aisuite.providers.github_provider import GitHubProvider
 from aisuite.framework.message import Message
 
 provider = GitHubProvider()
-prompt = {"content": "Hello, what is the capital of France?", "role": "user"}
+prompt = {"content": "Hello, what is the capital of Germany?", "role": "user"}
 response = provider.chat_completions_create("gpt-4", [prompt])
 print(response.choices[0].message.content)
 ```

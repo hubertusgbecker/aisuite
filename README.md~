@@ -1,6 +1,6 @@
 # AISuite
 
-This is my fork of the original [aisuite](https://github.com/andrewyng/aisuite) repository. Everything remains the same except that a new **GitHub Provider** has been added to enable free GPT-4 access via a GitHub Copilot subscription. This addition is inspired by [freegpt](https://github.com/B00TK1D/freegpt).
+This is my fork of the original [aiSuite](https://github.com/andrewyng/aisuite) repository. Everything remains the same except that a new **GitHub Provider** has been added to enable free GPT-4 access via a GitHub Copilot subscription. This addition is inspired by [freegpt](https://github.com/B00TK1D/freegpt).
 
 ## Installation
 
